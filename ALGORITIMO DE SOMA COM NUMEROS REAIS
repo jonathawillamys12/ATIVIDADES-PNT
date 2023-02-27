@@ -1,0 +1,17 @@
+programa
+{
+função início ()
+{
+Real dado1, dado2, dado3, somar
+escreva(" olá usuário")
+escreva("\n vou somar três números para você.")
+escreva("\n digite um número: ")
+leia(dado1 )
+escreva("digite um segundo número: ")
+leia(dado2)
+escreva("digite um terceiro número: ")
+leia(dado3)
+somar=(dado1+dado2+dado3)
+escreva("a soma dos três números foi:", amar,"\n")
+}
+}
