@@ -1,0 +1,22 @@
+# ATIVIDADES-PNT
+Todas as atividades do professor Joerllys Sérgio
+programa {
+  funcao inicio() {
+    real nota1, nota2, nota3, nota4, soma
+    escreva("digite a primeira nota: ")
+    leia(nota1)
+    escreva("digite a segunta nota: ")
+    leia(nota2)
+    escreva("digite a terceira nota: ")
+    leia(nota3)
+    escreva("digite a quarta e ultima nota: ")
+    leia(nota4)
+    resultado=nota1+nota2+nota3+nota4
+    se(media>=7)
+      escreva("aluno aprovado")
+      senao se ("media>=5 e media<6,9")
+        escreva("aluno em recuperação")
+        senao
+          escreva("aluno reprovado")
+  }
+}
